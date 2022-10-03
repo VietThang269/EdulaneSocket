@@ -1,6 +1,6 @@
 const io = require("socket.io")(8000, {
   cors: {
-    origin: "http://localhost:3000",
+    origin: "https://velvety-bombolone-b60846.netlify.app",
   },
 });
 let activeUsers = [];
